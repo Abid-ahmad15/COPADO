@@ -9,7 +9,9 @@
         <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
+	
     <actionOverrides>
+	
         <actionName>Accept</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
