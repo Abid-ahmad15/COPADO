@@ -163,6 +163,15 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
+        <fullName>url__c</fullName>
+        <externalId>false</externalId>
+        <label>url</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
         <fullName>test__c</fullName>
         <externalId>false</externalId>
         <label>test</label>
@@ -173,9 +182,36 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>AuthCode__c</fullName>
+        <externalId>false</externalId>
+        <label>AuthCode</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>client_id__c</fullName>
+        <externalId>false</externalId>
+        <label>client_id</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
         <fullName>access_token__c</fullName>
         <externalId>false</externalId>
         <label>access_token</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>client_secret__c</fullName>
+        <externalId>false</externalId>
+        <label>client_secret</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
         <type>LongTextArea</type>
@@ -189,5 +225,13 @@
         <trackTrending>false</trackTrending>
         <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>expiryDateTime__c</fullName>
+        <externalId>false</externalId>
+        <label>expiryDateTime</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
     </fields>
 </CustomObject>
