@@ -167,8 +167,9 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
-        <fullName>url__c</fullName>
+        <fullName>PhoneTest__c</fullName>
         <externalId>false</externalId>
+        <label>PhoneTest</label>
         <label>url</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -237,6 +238,6 @@
         <label>expiryDateTime</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>DateTime</type>
+        <type>Phone</type>
     </fields>
 </CustomObject>
