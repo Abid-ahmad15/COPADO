@@ -8,4 +8,12 @@
         <trackTrending>false</trackTrending>
         <type>Phone</type>
     </fields>
+    <fields>
+        <fullName>LongDetailName__c</fullName>
+        <externalId>false</externalId>
+        <label>LongDetailName</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
 </CustomObject>
